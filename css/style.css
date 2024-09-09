@@ -343,9 +343,22 @@ h1, h2, h3, h4, h5, h6 {
         padding-left: calc(50vw - 185px);
         padding-right: calc(50vw - 185px);
     }
-    .nav {
+    .nav__list{
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .about {
+        max-width: 370px
+    }
+
+    .work {
+        max-width: 370px;
+    }
+
+    .projects__center {
         flex-wrap: wrap;
-        justify-content: flex-start;
+        padding: 0 150px;
     }
 }
 
@@ -353,6 +366,25 @@ h1, h2, h3, h4, h5, h6 {
     .center {
         padding-left: calc(50vw - 160px);
         padding-right: calc(50vw - 160px);
+    }
+
+    .about {
+        max-width: 320px
+    }
+
+    .work {
+        max-width: 320px;
+    }
+
+    .projects__center {
+        flex-wrap: wrap;
+        padding: 0 100px;
+    }
+
+    .img_btn {
+        padding-top: 220px;
+        width: 40px;
+        height: 40px;
     }
 
 }
